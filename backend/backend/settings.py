@@ -63,6 +63,7 @@ INSTALLED_APPS = [
 
     "userauth",
     "problems",
+    "submissions",
 
 ]
 
