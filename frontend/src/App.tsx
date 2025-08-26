@@ -9,6 +9,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import RegisterPage from './pages/RegisterPage'
+import HomePage from './pages/HomePage'
 
 type ProtectedRouteProps = {
   children:ReactNode,
@@ -30,8 +31,10 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
+          <Route path="/" element={< HomePage />} />
           <Route path="/login" element={< LoginPage />} />
           <Route path="/register" element={< RegisterPage />} />
+
           <Route path='/profile' 
           element={
             <ProtectedRoute>
