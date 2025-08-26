@@ -1,0 +1,25 @@
+{
+  "name": "codepit",
+  "version": "1.0.0",
+  "description": "\"# CodePit\"",
+  "homepage": "https://github.com/laser069/CodePit#readme",
+  "bugs": {
+    "url": "https://github.com/laser069/CodePit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laser069/CodePit.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {}
+}
